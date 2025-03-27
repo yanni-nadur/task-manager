@@ -44,7 +44,7 @@ SECRET_KEY=sua_chave_secreta_aqui
    - Para rodar o backend com Docker, use o comando:
 
 ```bash
-docker compose up
+docker compose up --build -d
 ```
 
 Isso vai levantar o container do PHP, que servirá a API de tarefas.
