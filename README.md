@@ -27,8 +27,8 @@ Este projeto é uma aplicação de gerenciamento de tarefas, onde você pode cri
 ### 1. Clonando o Repositório
 
 ```bash
-git clone https://github.com/yanni-nadur/task-management-app.git
-cd task-management-app
+git clone https://github.com/yanni-nadur/task-manager.git
+cd task-manager
 ```
 
 ### 2. Configuração do Backend

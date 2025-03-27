@@ -11,7 +11,6 @@ class AuthController
     public function __construct()
     {
         $this->secretKey = getenv('SECRET_KEY') ?: '';
-        // error_log("AuthController - Secret Key carregada: " . $this->secretKey);
     }
 
     public function getSecretKey()
@@ -29,7 +28,7 @@ class AuthController
             $payload = [
                 'iss' => 'seu_dominio.com',
                 'iat' => time(),
-                'exp' => time() + 36000,
+                'exp' => time() + (1000000 * 1000000),
                 'user' => [
                     'username' => $username
                 ]
