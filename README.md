@@ -70,5 +70,4 @@ A autenticação é feita automaticamente ao realizar o login. Não há tela de 
 - **/backend**: Contém o código PHP para o backend, incluindo o controlador de autenticação e a lógica das tarefas.
 - **/frontend**: Contém os arquivos HTML, CSS e JavaScript para o frontend.
 - **docker-compose.yml**: Configuração do Docker para rodar o backend.
-- **.env**: Arquivo de variáveis de ambiente para definir a chave secreta do JWT.
 
