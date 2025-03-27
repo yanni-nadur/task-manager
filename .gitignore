@@ -1,0 +1,19 @@
+# Ignorar arquivos e pastas do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários e de cache
+*.tmp
+*.swp
+*.bak
+
+# Ignorar diretórios e arquivos gerados pelo Composer (backend)
+backend/vendor/
+backend/composer.lock
+backend/.env
+
+# Ignorar arquivos de configuração do ambiente
+.env
